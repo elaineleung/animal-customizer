@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/themes/nano.min.css"/>
+    </head>
+    <body id="body">
+        <div class="wrapper">
+
+            <header>
+                <div class="container">
+                    <h1 id="h1">Make your own rabbit!</h1>
+                </div>
+            </header>
+            <section class="main">
+                <div class="container container-main">
+                    <div class="main-bunny">
+                        <div class="bunny">
+                            <!-- head start -->
+                            <div id="head" class="head">
+                                <!-- ears -->
+                                <div class="ears">
+                                    <div class="ear-l ear all">
+                                        <div class="ear-inner"></div>   
+                                    </div>
+                                    <div class="ear-r ear all">
+                                        <div class="ear-inner"></div> 
+                                    </div>
+                                </div>
+                                <!-- face -->
+                                <div class="face all"> 
+                                    <div class="face-features">
+                                        <div class="eyes">
+                                            <div class="eye">
+                                                <div class="eye-inner"></div>
+                                            </div>
+                                            <div class="eye">
+                                                <div id="pupil" class="eye-inner eye-p"></div>
+                                            </div>
+                                        </div>
+                                        <div class="nose"></div>
+                                        <div class="mouth">
+                                            <svg viewBox="0 0 10 10" class="svg-mouth">
+                                                <path id="mouth" d="M3,5 C3,8 7,8 7,5" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>  
+                            <!-- head end -->
+                            <!-- body start -->
+                                <div class="body">
+                                    <div class="torso all shadow">
+                                        <div class="hands">
+                                            <div class="hand hand-left all"></div>
+                                            <div class="hand hand-right all"></div>
+                                        </div>
+                                    </div>
+                                    <div class="legs">
+                                        <div class="leg leg-left">
+                                            <div class="leg-thigh all"></div>
+                                            <div class="leg-foot all shadow"></div>
+                                        </div>
+                                        <div class="leg leg-right">
+                                            <div class="leg-thigh all"></div>
+                                            <div class="leg-foot all shadow"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- body end -->
+                        </div> <!-- /bunny -->  
+                    </div><!-- /main-bunny -->
+                    
+                    <div class="main-settings shadow">
+                                        
+                        <div class="settings-features">
+                            
+                            <div class="features features-big setting-ears">
+                                <h2 class="feature-title">Ears</h2>
+                                <div class="feature-container">
+                                    <div id="earsLeft" class="triangle-left disable"> </div>
+                                    <div class="feature-wrapper">
+                                        <div id="earsCarousel" class="feature-carousel">
+                                            <div class="frame frame-big">
+                                                <div class="ear-thumbnail ears-long-thumbnail feature current">
+                                                    <div class="ears-group">
+                                                        <div class="ear-long-thumbnail ear-long-left-thumbnail part">
+                                                            <div class="ear-thumbnail-inner"></div>
+                                                        </div>
+                                                        <div class="ear-long-thumbnail ear-long-right-thumbnail part">
+                                                            <div class="ear-thumbnail-inner"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ear-thumbnail-face part"></div>
+                                                </div>
+                                            </div>
+                                            <div class="frame frame-big">
+                                                <div class="ear-thumbnail ears-med-thumbnail feature">
+                                                    <div class="ears-group">
+                                                        <div class="ear-med-thumbnail ear-med-left-thumbnail part">
+                                                            <div class="ear-thumbnail-inner"></div>
+                                                        </div>
+                                                        <div class="ear-med-thumbnail ear-med-right-thumbnail part">
+                                                            <div class="ear-thumbnail-inner"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ear-thumbnail-face ear-thumbnail-face-med part"></div>
+                                                </div>
+                                            </div>
+                                            <div class="frame frame-big">
+                                                <div class="ear-thumbnail ears-short-thumbnail feature">
+                                                    <div class="ears-group">
+                                                        <div class="ear-short-thumbnail ear-short-left-thumbnail part">
+                                                            <div class="ear-thumbnail-inner"></div>
+                                                        </div>
+                                                        <div class="ear-short-thumbnail ear-short-right-thumbnail part">
+                                                            <div class="ear-thumbnail-inner"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ear-thumbnail-face ear-thumbnail-face-short part"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="earsRight" class="triangle-right"> </div>
+                                </div>
+                            </div>
+                           
+                           <div class="features setting-face">
+                                <h2 class="feature-title">Head</h2>
+                                <div class="feature-container">
+                                    <div id="faceLeft" class="triangle-left disable"> </div>
+                                    <div class="feature-wrapper">
+                                        <div id="faceCarousel" class="feature-carousel feature-carousel-4">
+                                            <div class="frame">
+                                                <div class="face-thumbnail face-pear-thumbnail feature current part"></div>
+                                            </div>
+                                            <div class="frame">
+                                                <div class="face-thumbnail face-thin-thumbnail feature part"></div>
+                                            </div>
+                                            <div class="frame">
+                                                <div class="face-thumbnail face-flat-thumbnail feature part"></div>
+                                            </div>
+                                            <div class="frame">
+                                                <div class="face-thumbnail face-round-thumbnail feature part"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="faceRight" class="triangle-right"> </div>
+                                </div>
+                            </div> 
+                        
+                            <div class="features features-small setting-eyes">
+                                <h2 class="feature-title">Eyes</h2>
+                                <div class="feature-container">
+                                    <div id="eyesLeft" class="triangle-left lower-triangle disable"> </div>
+                                    <div class="feature-wrapper">
+                                        <div id="eyesCarousel" class="feature-carousel feature-carousel-4">
+                                            <div class="frame frame-small">
+                                                <div class="eye-thumbnail eyes-oval-thumbnail feature current">
+                                                    <div class="eye-oval-thumbnail eye-oval-left-thumbnail part">
+                                                        <div class="eye-thumbnail-inner"></div>
+                                                    </div>
+                                                    <div class="eye-oval-thumbnail eye-oval-right-thumbnail part">
+                                                        <div class="eye-thumbnail-inner"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="frame frame-small">
+                                                <div class="eye-thumbnail eyes-big-thumbnail feature">
+                                                    <div class="eye-big-thumbnail eye-big-left-thumbnail part">
+                                                        <div class="eye-thumbnail-inner"></div>
+                                                    </div>
+                                                    <div class="eye-big-thumbnail eye-big-right-thumbnail part">
+                                                        <div class="eye-thumbnail-inner"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="frame frame-small">
+                                                <div class="eye-thumbnail eyes-small-thumbnail feature">
+                                                    <div class="eye-small-thumbnail eye-small-left-thumbnail part">
+                                                        <div class="eye-thumbnail-inner"></div>
+                                                    </div>
+                                                    <div class="eye-small-thumbnail eye-small-right-thumbnail part">
+                                                        <div class="eye-thumbnail-inner"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="frame frame-small">
+                                                <div class="eye-thumbnail eyes-flat-thumbnail feature">
+                                                    <div class="eye-flat-thumbnail eye-flat-left-thumbnail part">
+                                                        <div class="eye-thumbnail-inner"></div>
+                                                    </div>
+                                                    <div class="eye-flat-thumbnail eye-flat-right-thumbnail part">
+                                                        <div class="eye-thumbnail-inner"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="eyesRight" class="triangle-right lower-triangle"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="features features-small setting-nose">
+                                <h2 class="feature-title">Nose</h2>
+                                <div class="feature-container">
+                                    <div id="noseLeft" class="triangle-left lower-triangle disable"> </div>
+                                    <div class="feature-wrapper">
+                                        <div id="noseCarousel" class="feature-carousel">
+                                            <div class="frame frame-small">
+                                                <div class="nose-thumbnail nose-oval-thumbnail feature current part"></div>
+                                            </div>
+                                            <div class="frame frame-small">
+                                                <div class="nose-thumbnail nose-triangle-thumbnail feature  part"></div>
+                                            </div>
+                                            <div class="frame frame-small">
+                                                <div class="nose-thumbnail nose-round-thumbnail feature  part"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="noseRight" class="triangle-right lower-triangle"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- features end  -->
+                        <div class="settings-colors">
+                            <div class="colors">
+                                <div class="color">
+                                    <h3 class="color-title">Body & Head</h3>
+                                    <div class="pickr--color">
+                                        <div id="headPickr"></div>
+                                    </div>
+                                </div>
+                                <div class="color">
+                                    <h3 class="color-title">Inner Ear</h3>
+                                    <div class="pickr--color">
+                                        <div id="earsPickr"></div>
+                                    </div>
+                                </div>
+                                <div class="color">
+                                    <h3 class="color-title">Eyes</h3>
+                                    <div class="pickr--color">
+                                        <div id="eyesPickr"></div>
+                                    </div>
+                                </div>
+                                <div class="color">
+                                    <h3 class="color-title">Inner Eye</h3>
+                                        <div class="pickr--color">
+                                            <div id="innerEyesPickr"></div>
+                                        </div>
+                                    </div>
+                                <div class="color">
+                                    <h3 class="color-title">Nose</h3>
+                                    <div class="pickr--color">
+                                        <div id="nosePickr"></div>
+                                    </div>
+                                </div>
+                                <div class="color">
+                                    <h3 class="color-title">Mouth</h3>
+                                    <div class="pickr--color">
+                                        <div id="mouthPickr"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="colorMode" class="switch shadow">
+                                <div id="toggle" class="switch-toggle"></div>
+                                <div>
+                                    <h4 id="colorModeTitle"class="color-mode-title">Light Mode</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="area">
+                <ul id="background" class="start">
+                    <li class="egg"></li>
+                    <li class="egg egg-stripe-pinkblue"></li>
+                    <li class="egg egg-stripe-color"></li>
+                    <li class="egg egg-orangegreen"></li>
+                    <li class="egg egg-yellowgreen"></li>
+                    <li class="egg egg-purpleyellow"></li>
+                    <li class="egg egg-pinkblue"></li>
+                    <li class="egg egg-pink"></li>
+                    <li class="egg egg-blue"></li>
+                    <li class="egg egg-yellow"></li>
+                    <li class="egg"></li>
+                    <li class="egg egg-stripe-pinkblue"></li>
+                    <li class="egg egg-stripe-color"></li>
+                    <li class="egg egg-orangegreen"></li>
+                    <li class="egg egg-yellowgreen"></li>
+                    <li class="egg egg-purpleyellow"></li>
+                    <li class="egg egg-pinkblue"></li>
+                    <li class="egg egg-pink"></li>
+                    <li class="egg egg-blue"></li>
+                    <li class="egg egg-yellow"></li>
+                </ul>
+            </div >
+        </div>
+        <footer class="ground">
+            <div class="container container-footer">
+                <div>
+                    <p class="footer-text"><a id="footerLink" href="https://github.com/Simonwep/pickr" target="_blank">pickr</a> courtesy of Simonwep</p>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.min.js"></script>
+        <!-- <script type="text/javascript" src="pickr.js"></script> -->
+        <script src="index.pack.js"></script>
+    </body>
+</html>
