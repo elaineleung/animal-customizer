@@ -206,7 +206,7 @@ const start = () => {
     background.style.display = 'none';
     background.classList.remove('eggs')
     eyeInner.classList.add('eye-p')
-  }, 60000)
+  }, 80000)
 }
 
 const changeFeature = (feature, part) => {

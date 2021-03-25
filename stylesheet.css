@@ -1,7 +1,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  /* height: 100%; */
+  height: 100%;
 }
 
 body {
@@ -10,6 +10,8 @@ body {
   /* background-size: cover; */
   /* height: 100%; */
   color: #1F0623;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
@@ -67,7 +69,7 @@ color: #777;
 
 .wrapper {
   /* background: linear-gradient(to bottom, #E6DEFF, #9546A3) fixed; */
-  /* height: 100%; */
+  height: 100%;
   min-width: 40em;
   width: 100%;
   display: flex;
@@ -76,7 +78,7 @@ color: #777;
   flex: 1 0 auto;
   /* border: 1px solid magenta; */
   margin: 0 auto;
-  z-index: -10;
+  /* z-index: -1; */
 }
 
 .container {
@@ -116,7 +118,7 @@ color: #777;
 
 .main-bunny, .main-settings {
  margin: 0 1em;
- z-index: 10;
+ z-index: 1;
 }
 
 .main-bunny {
@@ -200,7 +202,7 @@ animation: roll 2s linear both;
   height: 9em;
   width: 1.4em;
   border-radius: 48%;
-  z-index: -1;
+  z-index: 1;
   margin: 2em auto 0em;
 }
 
@@ -214,7 +216,7 @@ animation: roll 2s linear both;
   border-radius: 35% 50% 70% 50%;
   transform: rotate(45deg);
   background: white;
-  z-index: 2;
+  /* z-index: 2; */
   -moz-box-shadow: 1px 1px 1px rgba(68, 68, 68, 0.4);
   -webkit-box-shadow: 1px 1px 1px rgba(68, 68, 68, 0.4);
   box-shadow: 5px 3px 5px rgba(68, 68, 68, 0.4);  
@@ -225,7 +227,6 @@ animation: roll 2s linear both;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: -0em;
   margin-right: 0em;
   width: 10em;
   height: 10em;
@@ -681,7 +682,7 @@ height: 0.4em;
 margin: 0.3em 1em 0px 0.3em;
 border-radius: 50%;
 background: white;
-z-index: 3;
+z-index: 1;
 }
 
 .nose-thumbnail {
@@ -828,7 +829,7 @@ footer {
   font-size: 0.9rem;
   margin: 0.5em auto 0;
   padding: 0;
-  z-index: 5;
+  /* z-index: 2; */
   width: 100%;
     /* border: 1px solid magenta; */
 }
@@ -837,6 +838,7 @@ footer {
   color: lightgrey;
   margin: 20em auto 2em;
   font-size: 0.9rem;
+  z-index: 4;
 }
 
 
@@ -972,27 +974,28 @@ transition: 0.2s;
 /* Ground */
 
 .ground {
-  z-index: 2;
+  z-index: 0;
   width: 100%;
   min-width: 50em;
   background: linear-gradient(to bottom, rgba(3, 105, 95, 1), rgba(0, 0, 0, 1)); 
   min-height: 25em;
-  /* height: 100%; */
+  height: calc(100vh - 30em);
 	border-radius: 90% 90% 0 0/ 10%;
   align-self: flex-end;
   flex-shrink: 0;
   margin: 0em auto;
   position: absolute;
-  top: 25em;
+  top: 30em;
 }
 
 /* Eggs  */
 
 .area{
   min-width: 90%;
-  height: 30em;
+  height: 100%;
   position: absolute;
-  z-index: 1;
+  z-index: -10;
+
   /* left: 0; */
   /* border: 1px magenta solid; */
   /* margin: 0; */
@@ -1003,7 +1006,7 @@ transition: 0.2s;
   top: 0;
   left: 0;
   width: 100%;
-  height: 30em;
+  height: 100%;
   overflow: hidden;
   /* border: 1px magenta solid; */
 }
@@ -1015,7 +1018,7 @@ transition: 0.2s;
   width: 40px;
   height: 30px;
   border-radius: 50%;
-  margin-top: 20em;
+  /* margin-top: 20em; */
   bottom: 0em;
   animation: animate linear;
   animation-iteration-count: 2;
@@ -1250,7 +1253,7 @@ background: #FFF38C;
 @keyframes animate {
 
   0%{
-      transform: translateY(-35em) rotate(0deg);
+      transform: translateY(-60em) rotate(0deg);
   }
 
   100%{
