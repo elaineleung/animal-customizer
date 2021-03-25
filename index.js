@@ -305,4 +305,4 @@ nose1.addEventListener('click', () => changeFeature('nose-oval', 'nose'))
 nose2.addEventListener('click', () => changeFeature('nose-triangle', 'nose'))
 nose3.addEventListener('click', () => changeFeature('nose-round', 'nose'))
 
-eyeInner.addEventListener('click', start)
+// eyeInner.addEventListener('click', start)

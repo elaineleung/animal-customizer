@@ -264,9 +264,9 @@ animation: jump 3s linear infinite;
   background: white;
 }
 
-.eye-p {
+/* .eye-p {
   cursor: pointer;
-}
+} */
 
 .nose {
   background: black;
