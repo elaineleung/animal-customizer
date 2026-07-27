@@ -198,7 +198,7 @@ const partsMap = [
   }
 ]
 
-const start = () => {
+const startEasterEgg = () => {
   background.style.display = 'block';
   background.classList.add('eggs')
   eyeInner.classList.remove('eye-p')
@@ -305,4 +305,4 @@ nose1.addEventListener('click', () => changeFeature('nose-oval', 'nose'))
 nose2.addEventListener('click', () => changeFeature('nose-triangle', 'nose'))
 nose3.addEventListener('click', () => changeFeature('nose-round', 'nose'))
 
-// eyeInner.addEventListener('click', start)
+eyeInner.addEventListener('click', startEasterEgg)
